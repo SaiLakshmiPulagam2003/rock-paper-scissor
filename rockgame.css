@@ -1,0 +1,65 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+#heading{
+    font-size: 3rem;
+    font-weight: bolder;
+    color: saddlebrown;
+    
+    text-align: center;
+    text-shadow: 2px 2px 2px rgb(74, 43, 43);
+}
+hr{
+    width: 460px;
+    font-weight: bold;
+    color: brown;
+    text-shadow: 2px 2px 2px rgb(74, 43, 43);
+}
+button{
+    margin: 10px;
+    height: 130px;
+    width: 130px;
+    font-size: 5rem;
+    text-align: center;
+    padding:10px;
+    border-radius: 50%;
+    border: none;
+    background-color: hsl(55, 44%, 80%);
+    cursor: pointer;
+}
+#playerDisplay ,#computerDisplay{
+    font-size: 40px;
+    color: hsl(0, 0%, 20%);
+    padding: 1px;
+    margin: 0;
+    padding: 10px;
+    font-weight: bold;
+
+}
+#playerScore,#computerScore{
+    font-size: 15px;
+    color: hsl(0, 0%, 20%);
+    padding: 1px;
+    margin: 0;
+    padding: 10px;
+    font-weight: bold;
+}
+#resultDisplay{
+    color: rgb(193, 139, 2);
+    font-size: 40px;
+    text-shadow: 2px 2px 2px rgb(163, 161, 161);
+}
+.greenText,#playerScore{
+    color: green;
+}
+.redText,#computerScore{
+    color: red;
+}
